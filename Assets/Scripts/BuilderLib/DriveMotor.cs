@@ -5,7 +5,7 @@ using UnityEngine;
 public class DriveMotor : MonoBehaviour
 {
     private const float StallTorque = 7;
-    private float _momentOfInertia = 0.0000325f;
+    private float _momentOfInertia = 0.0000255f;
 
     [HideInInspector] public float gearRatio = 5.85f;
 
